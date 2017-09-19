@@ -31,15 +31,16 @@
 **docker container rm -f <containerId>**
 > to force remove **running** container
 
-
-
-**docker container ls`
+**docker container ls**
 > To list running container
 
 **docker container stop <containerId>**
 > To stop the running container. 
 
-**docker container ls -a`
+**docker container start <containerId>**
+> To start the stopped container
+
+**docker container ls -a**
 > To list all *stopped* container
 
 > **Tips!** for containerId you don't need to provide full container id but only few starting character is enough if its unique amoung other running container. 
